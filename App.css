@@ -1,0 +1,24 @@
+/* App.css */
+
+.container {
+  background-color: rgb(55, 167, 236);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around; /* Equally distribute space between columns */
+  padding: 0; /* Remove default padding */
+}
+
+.col1, .col2 {
+  background-color: rgb(55, 167, 236);
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  border: 0 solid #ccc;
+  text-align: center;
+  flex: 1; /* Equal width for all columns */
+  max-width: 150px; /* Adjust maximum width as needed */
+}
